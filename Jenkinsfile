@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/yeshwanthlm/Terraform-Jenkins.git"
+                            git "git branch: 'main', url: 'https://github.com/abdraheem98/tj-jenkins.git'"
                         }
                     }
                 }
@@ -51,4 +51,4 @@ pipeline {
         }
     }
 
-  }
+}
